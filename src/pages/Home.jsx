@@ -1,10 +1,12 @@
 import { BsWhatsapp } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 import Cube from '../components/cube/Cube';
+import Feature from '../components/Features/Feature';
 
 const Home = () => {
   return (
-    <section className="h-screen pt-24 md:flex justify-center items-center">
+    <>
+    <section className="md:h-screen pt-24 md:flex justify-center items-center">
       <div className="flex max-md:flex-col gap-4">
         <div className="max-md:text-center md:w-1/2">
           <p className="text-lg md:text-xl md:tracking-wide font-bold mb-4 font-dela text-red-500">
@@ -34,6 +36,8 @@ const Home = () => {
         </div>
       </div>
     </section>
+    <Feature />
+    </>
   );
 };
 
