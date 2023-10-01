@@ -6,7 +6,8 @@ import { RiMenu3Line } from 'react-icons/ri';
 import { GrClose } from 'react-icons/gr';
 
 const Navbar = () => {
-  const [blur, setBlur] = useState('bg-transparent');
+  const [border, setBorder] = useState('border-b-2 border-gray-200');
+  const [shadow, setShadow] = useState('');
   const [showMenu, setShowMenu] = useState(false);
 
   const handleClick = () => {
@@ -15,16 +16,20 @@ const Navbar = () => {
 
   window.addEventListener('scroll', () => {
     if (window.scrollY > 20) {
-      setBlur('backdrop-blur-2xl');
+      setBorder('border-none');
+      setShadow('shadow-main');
     } else {
-      setBlur('bg-transparent');
+      setBorder('border-b-2 border-gray-200');
+      setShadow('');
     }
   });
 
   return (
-    <header className={`${blur} w-full main_container fixed z-20`}>
+    <header
+      className={`${shadow} backdrop-blur-2xl w-full main_container fixed z-20`}>
       <div>
-        <nav className="h-24 flex justify-between items-center relative">
+        <nav
+          className={`h-24 flex justify-between items-center relative ${border} border-b-2 border-gray-200`}>
           <Link to="/" className="flex items-center gap-2">
             <img className="w-10 sm:w-12" src={Logo} alt="RWID" />
             <div className="flex flex-col">

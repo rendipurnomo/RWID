@@ -15,7 +15,7 @@ export default {
         xl: '1700px',
       },
       boxShadow: {
-        main: '5px 5px 10px #c0cac3, -5px -5px 10px #ffffff',
+        main: '20px 20px 60px #16a34a35, -20px -20px 60px #ffffff',
       },
     },
   },

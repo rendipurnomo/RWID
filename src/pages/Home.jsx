@@ -2,6 +2,8 @@ import { BsWhatsapp } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 import Cube from '../components/cube/Cube';
 import Feature from '../components/Features/Feature';
+import Preview from '../components/Preview/Preview';
+import FaQ from '../components/FAQ/Faq';
 
 const Home = () => {
   return (
@@ -37,6 +39,8 @@ const Home = () => {
       </div>
     </section>
     <Feature />
+    <Preview />
+    <FaQ />
     </>
   );
 };
