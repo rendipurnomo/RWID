@@ -1,23 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
-import Navbar from './components/Navbar/Navbar.jsx';
-import Footer from './components/Footer/Footer.jsx';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './pages/Home.jsx';
 import Program from './pages/Program';
+import Layout from './Layout';
 
-const Layout = () => {
-  return (
-    <>
-      <Navbar />
-      <main className="main_container bg-green-50">
-        <Outlet />
-      </main>
-      <Footer />
-    </>
-  );
-};
+
 
 const router = createBrowserRouter([
   {

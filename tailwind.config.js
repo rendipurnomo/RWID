@@ -16,6 +16,8 @@ export default {
       },
       boxShadow: {
         main: '20px 20px 60px #16a34a35, -20px -20px 60px #ffffff',
+        loader_1: '25px 25px 75px rgba(0,0,0,0.55)',
+        loader_2: 'inset -5px -5px 25px rgba(0,0,0,0.25),inset 5px 5px 35px rgba(0,0,0,0.25)',
       },
     },
   },

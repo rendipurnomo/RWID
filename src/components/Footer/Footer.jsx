@@ -1,3 +1,4 @@
+import Logo from '../../assets/images/rwid.png';
 import { Link } from 'react-router-dom';
 import { FaInstagram, FaWhatsapp } from 'react-icons/fa';
 import {IoIosLogOut} from 'react-icons/io';
@@ -38,7 +39,7 @@ const Footer = () => {
           <div className="flex items-center max-md:justify-center gap-2 mb-4">
             <img
               className="w-12"
-              src="/src/assets/images/rwid.png"
+              src={Logo}
               alt="logo"
             />
             <h3 className="text-xl md:text-2xl font-bold">Remote Worker Indonesia</h3>
