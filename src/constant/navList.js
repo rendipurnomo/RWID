@@ -1,4 +1,4 @@
-const navList = [
+const NavList = [
   {
     title: 'Program',
     path: '/program',
@@ -12,4 +12,4 @@ const navList = [
     path: '/contact',
   },
 ];
-export default navList;
+export default NavList;

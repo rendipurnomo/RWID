@@ -1,5 +1,5 @@
 import Logo from '/src/assets/images/rwid.png';
-import Navlist from '../../constant';
+import Navlist from '/src/constant/navList';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import { RiMenu3Line } from 'react-icons/ri';
