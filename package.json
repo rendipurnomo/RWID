@@ -3,10 +3,10 @@
   "author": "rendi purnomo",
   "license": "ISC",
   "private": true,
-  "version": "1.0.2",
+  "version": "0.0.0",
   "type": "module",
   "engines": {
-    "node": "18.17.0"
+    "node": ">=16.0.0"
   },
   "main": "index.html",
   "repository": {
