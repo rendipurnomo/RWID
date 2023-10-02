@@ -11,9 +11,9 @@ const FaQ = () => {
       <h3 className="text-xl md:text-3xl font-bold text-center">
         Pertanyaan yang sering diajukan
       </h3>
-      {FaQlist.map((item, index) => {
+      {FaQlist.map((item) => {
         return (
-          <Qestion key={index} question={item.question} answer={item.answer} />
+          <Qestion key={item.id} question={item.question} answer={item.answer} />
         );
       })}
       <button className="border text-green-600 border-green-600 rounded-md py-2 px-4 my-8">
