@@ -1,8 +1,32 @@
 {
-  "name": "formik",
+  "name": "rwid",
+  "author": "rendi purnomo",
+  "license": "ISC",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
+  "engines": {
+    "node": "18.17.0"
+  },
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rendipurnomo/RWID.git",
+    "directory": "src",
+    "branch": "main"
+  },
+  "homepage": "https://github.com/rendipurnomo/RWID",
+  "bugs": {
+    "url": "https://github.com/rendipurnomo/RWID/issues"
+  },
+  "keywords": [
+    "react",
+    "tailwind",
+    "tailwindcss",
+    "vite",
+    "vitejs"
+  ],
+  
   "scripts": {
     "dev": "vite",
     "build": "vite build",
