@@ -3,11 +3,11 @@
   "author": "rendi purnomo",
   "license": "ISC",
   "private": true,
-  "version": "0.0.1",
+  "version": "18.17.0",
   "type": "module",
   "main": "index.html",
   "engines": {
-    "node": "18.17.0"
+    "node": "18.18.0"
   },
   "repository": {
     "type": "git",
