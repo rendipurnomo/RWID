@@ -6,6 +6,9 @@
   "version": "0.0.0",
   "type": "module",
   "main": "index.html",
+  "engines": {
+    "node": "18.x"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rendipurnomo/RWID.git",
