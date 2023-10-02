@@ -39,13 +39,15 @@ const Qestion = ({ question, answer }) => {
     <>
       <button
         onClick={handleClick}
-        className="md:w-3/4 flex justify-between items-center border-b-2 border-gray-300 pb-2 mt-10 bg-green-50">
-        <p className='text-md font-semibold'>{question}</p>
+        className="md:w-3/4 w-full flex justify-between items-center border-b-2 border-gray-300 pb-2 mt-10 bg-green-50">
+        <p className='text-md text-left font-semibold'>{question}</p>
+        <div>
         <IoIosArrowDown
-          className={`transition-all duration-300 ease-in-out ${rotate}`}
+          className={`transition-all duration-300 ease-in-out w-4 h-4 ${rotate}`}
         />
+        </div>
       </button>
-      <div className={`${show} md:w-3/4`}>
+      <div className={`${show} md:w-3/4 w-full`}>
         <p className="text-gray-600 text-left mt-3">{answer}</p>
       </div>
     </>
